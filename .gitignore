@@ -1,0 +1,12 @@
+# use glob syntax
+syntax: glob
+
+# mac
+.DS_STORE
+
+# python
+*.pyc
+.ropeproject/**
+*.egg-info
+dist
+build
