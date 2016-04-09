@@ -44,7 +44,7 @@ class Xoria256Style(Style):
         Keyword.Reserved:          "",        # class: 'kr'
         Keyword.Type:              "",        # class: 'kt'
 
-        Operator:                  "#f92672", # class: 'o'
+        Operator:                  "#9bbadc", # class: 'o'
         Operator.Word:             "",        # class: 'ow' - like keywords
 
         Punctuation:               "#f8f8f2", # class: 'p'
@@ -58,7 +58,7 @@ class Xoria256Style(Style):
         Name.Decorator:            "#a6e22e", # class: 'nd' - to be revised
         Name.Entity:               "",        # class: 'ni'
         Name.Exception:            "#a6e22e", # class: 'ne'
-        Name.Function:             "#a6e22e", # class: 'nf'
+        Name.Function:             "#dfbdd4", # class: 'nf'
         Name.Property:             "",        # class: 'py'
         Name.Label:                "",        # class: 'nl'
         Name.Namespace:            "",        # class: 'nn' - to be revised
