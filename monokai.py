@@ -20,18 +20,18 @@ class MonokaiStyle(Style):
     This style mimics the Monokai color scheme.
     """
 
-    background_color = "#272822"
+    background_color = "#252525"
     highlight_color = "#49483e"
 
     styles = {
         # No corresponding class for the following:
-        Text:                      "#f8f8f2", # class:  ''
+        Text:                      "#d9d9d9", # class:  ''
         Whitespace:                "",        # class: 'w'
         Error:                     "#960050 bg:#1e0010", # class: 'err'
         Other:                     "",        # class 'x'
 
-        Comment:                   "#75715e", # class: 'c'
-        Comment.Multiline:         "",        # class: 'cm'
+        Comment:                   "#18fd98", # class: 'c'
+        Comment.Multiline:         "#18fd98", # class: 'cm'
         Comment.Preproc:           "",        # class: 'cp'
         Comment.Single:            "",        # class: 'c1'
         Comment.Special:           "",        # class: 'cs'
