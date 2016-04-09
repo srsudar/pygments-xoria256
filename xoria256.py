@@ -37,8 +37,8 @@ class Xoria256Style(Style):
         Comment.Special:           "",        # class: 'cs'
 
         Keyword:                   "#9cbcde", # class: 'k'
-        Keyword.Constant:          "",        # class: 'kc'
-        Keyword.Declaration:       "",        # class: 'kd'
+        Keyword.Constant:          "#fcffb4", # class: 'kc'
+        Keyword.Declaration:       "#bfbbdf", # class: 'kd'
         Keyword.Namespace:         "#bcde99", # class: 'kn'
         Keyword.Pseudo:            "",        # class: 'kp'
         Keyword.Reserved:          "",        # class: 'kr'
@@ -49,11 +49,11 @@ class Xoria256Style(Style):
 
         Punctuation:               "#f8f8f2", # class: 'p'
 
-        Name:                      "#f8f8f2", # class: 'n'
-        Name.Attribute:            "#a6e22e", # class: 'na' - to be revised
-        Name.Builtin:              "",        # class: 'nb'
-        Name.Builtin.Pseudo:       "",        # class: 'bp'
-        Name.Class:                "#a6e22e", # class: 'nc' - to be revised
+        Name:                      "#d9d9d9", # class: 'n'
+        Name.Attribute:            "#d9d9d9", # class: 'na' - to be revised
+        Name.Builtin:              "#e7b9d8", # class: 'nb'
+        Name.Builtin.Pseudo:       "#bebddd", # class: 'bp'
+        Name.Class:                "#d9d9d9", # class: 'nc' - to be revised
         Name.Constant:             "#66d9ef", # class: 'no' - to be revised
         Name.Decorator:            "#a6e22e", # class: 'nd' - to be revised
         Name.Entity:               "",        # class: 'ni'
@@ -72,14 +72,14 @@ class Xoria256Style(Style):
         Number:                    "#ae81ff", # class: 'm'
         Number.Float:              "",        # class: 'mf'
         Number.Hex:                "",        # class: 'mh'
-        Number.Integer:            "",        # class: 'mi'
+        Number.Integer:            "#e4b97c", # class: 'mi'
         Number.Integer.Long:       "",        # class: 'il'
         Number.Oct:                "",        # class: 'mo'
 
         Literal:                   "#ae81ff", # class: 'l'
         Literal.Date:              "#e6db74", # class: 'ld'
 
-        String:                    "#e6db74", # class: 's'
+        String:                    "#fdfdb8", # class: 's'
         String.Backtick:           "",        # class: 'sb'
         String.Char:               "",        # class: 'sc'
         String.Doc:                "",        # class: 'sd' - like a comment
