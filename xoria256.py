@@ -15,7 +15,7 @@ from pygments.style import Style
 from pygments.token import Keyword, Name, Comment, String, Error, Text, \
      Number, Operator, Generic, Whitespace, Punctuation, Other, Literal
 
-class MonokaiStyle(Style):
+class Xoria256Style(Style):
     """
     This style mimics the Monokai color scheme.
     """
@@ -36,10 +36,10 @@ class MonokaiStyle(Style):
         Comment.Single:            "",        # class: 'c1'
         Comment.Special:           "",        # class: 'cs'
 
-        Keyword:                   "#66d9ef", # class: 'k'
+        Keyword:                   "#9cbcde", # class: 'k'
         Keyword.Constant:          "",        # class: 'kc'
         Keyword.Declaration:       "",        # class: 'kd'
-        Keyword.Namespace:         "#f92672", # class: 'kn'
+        Keyword.Namespace:         "#bcde99", # class: 'kn'
         Keyword.Pseudo:            "",        # class: 'kp'
         Keyword.Reserved:          "",        # class: 'kr'
         Keyword.Type:              "",        # class: 'kt'
