@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-    pygments.styles.monokai
+    pygments.styles.xoria256
     ~~~~~~~~~~~~~~~~~~~~~~~
 
-    Mimic the Monokai color scheme. Based on tango.py.
+    Mimic the xoria256 color scheme. Based on tango.py.
 
     http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/
 
@@ -17,7 +17,7 @@ from pygments.token import Keyword, Name, Comment, String, Error, Text, \
 
 class Xoria256Style(Style):
     """
-    This style mimics the Monokai color scheme.
+    This style mimics the xoria256 color scheme.
     """
 
     background_color = "#252525"
