@@ -1,14 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-    pygments.styles.xoria256
-    ~~~~~~~~~~~~~~~~~~~~~~~
+pygments.styles.xoria256
 
-    Mimic the xoria256 color scheme. Based on tango.py.
-
-    http://www.monokai.nl/blog/2006/07/15/textmate-color-theme/
-
-    :copyright: Copyright 2006-2014 by the Pygments team, see AUTHORS.
-    :license: BSD, see LICENSE for details.
+Mimic the xoria256 color scheme. Based on tango.py.
 """
 
 from pygments.style import Style
@@ -57,7 +51,7 @@ class Xoria256Style(Style):
         Name.Constant:             "#66d9ef", # class: 'no' - to be revised
         Name.Decorator:            "#a6e22e", # class: 'nd' - to be revised
         Name.Entity:               "",        # class: 'ni'
-        Name.Exception:            "#a6e22e", # class: 'ne'
+        Name.Exception:            "#e7b9d8", # class: 'ne'
         Name.Function:             "#dfbdd4", # class: 'nf'
         Name.Property:             "",        # class: 'py'
         Name.Label:                "",        # class: 'nl'
